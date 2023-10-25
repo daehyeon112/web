@@ -1,0 +1,26 @@
+#mems{
+    border:1px solid black;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+}
+
+#mainhead{
+    text-align: center;
+}
+
+.mem{
+    margin: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#backbrod{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    display: inline-block;
+    background-color: gray;
+}
