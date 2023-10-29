@@ -17,10 +17,17 @@ a{
     text-decoration: none;
     color: black;
 }
-#backbrod{
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    display: inline-block;
+#fristhead{
+    position: relative;
+    margin: 0 auto;
+    display: block;
     background-color: gray;
+    width: 1300px;
 }
+#toc{
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+    border: 1px solid black;
+    width: 130px;
+    }   
