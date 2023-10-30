@@ -1,3 +1,29 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+}
+#gnb{height: 35px;
+background-color: darkgray;
+position: sticky; 
+border-bottom: solid 1px black;
+}
+#logo{
+    font-size: 20px;
+    display: inline;
+    position: absolute;
+    left: 35px;
+}
+#search{
+    position: relative;
+    left: 1100px;
+    width: 215px;
+    height: 35px;
+    display: inline;
+    padding: 0px;
+    border: 0px;
+}
+
+
 #mems{
     border:1px solid black;
     padding:20px;
@@ -7,6 +33,7 @@
 
 #mainhead{
     text-align: center;
+    margin: 0px;
 }
 
 .mem{
@@ -17,7 +44,7 @@ a{
     text-decoration: none;
     color: black;
 }
-#fristhead{
+#firsthead{
     position: relative;
     margin: 0 auto;
     display: block;
@@ -25,9 +52,9 @@ a{
     width: 1300px;
 }
 #toc{
-    margin-top: 20px;
     position: relative;
-    left: 100px;
+    top: 10px;
+    left:60px;
     border: 1px solid black;
     width: 130px;
     }   
