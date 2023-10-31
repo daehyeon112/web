@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    background-color: darkgray;
-}
+    background-color: #1f2023;
+    color:white;
+    }
 #gnb{height: 35px;
-background-color: darkgray;
-position: sticky; 
-border-bottom: solid 1px black;
+    background-color: #2d2f34;
+    position: sticky;
 }
 #logo{
     font-size: 20px;
@@ -21,11 +21,13 @@ border-bottom: solid 1px black;
     display: inline;
     padding: 0px;
     border: 0px;
+    background-color: #373a3c;
 }
 
 
 #mems{
-    border:1px solid black;
+    border-top 
+    :1px solid black;
     padding:20px;
     display:flex;
     justify-content:center;
@@ -33,7 +35,7 @@ border-bottom: solid 1px black;
 
 #mainhead{
     text-align: center;
-    margin: 0px;
+    margin: 0px;    
 }
 
 .mem{
@@ -47,14 +49,16 @@ a{
 #firsthead{
     position: relative;
     margin: 0 auto;
+    margin-top: 10px;
     display: block;
-    background-color: gray;
+    background-color: white;
+    color: black;
     width: 1300px;
 }
 #toc{
     position: relative;
     top: 10px;
     left:60px;
-    border: 1px solid black;
+    border: 1px solid white ;
     width: 130px;
     }   
