@@ -1,17 +1,27 @@
 body{
+    margin: 0px;
+    background-color: black;
+}
+#ctp{
     margin: 0;
     background-color: #1f2023;
     color:white;
+    width: 1300px;
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
+    height: 5000px;
     }
 #gnb{height: 35px;
     background-color: #2d2f34;
-    position: sticky;
+    border-bottom: 1px solid #373a3c;
 }
 #logo{
     font-size: 20px;
     display: inline;
     position: absolute;
     left: 35px;
+    color: white;
 }
 #search{
     position: relative;
@@ -20,8 +30,14 @@ body{
     height: 35px;
     display: inline;
     padding: 0px;
-    border: 0px;
-    background-color: #373a3c;
+    border-bottom: 1px solid #373a3c;
+    background-color: #1f2023;
+}
+#mainhead{
+    font-size: 60px;
+    position: relative;
+    right: 160px;
+    margin-bottom: 100px;
 }
 #albums{
     display:flex;
@@ -39,12 +55,13 @@ body{
     justify-content:center;
 }
 
-#mainhead{
+#alhead{
+    display: block;
     text-align: center;
     margin: 0px;
     padding-top: 10px;
-    height: 50px;
-    font-size: 30px;  
+    font-size: 30px; 
+
 }
 
 .mem{
@@ -58,16 +75,16 @@ a{
 #firsthead{
     position: relative;
     margin: 0 auto;
-    margin-top: 10px;
     display: block;
     background-color: white;
     color: black;
-    width: 1300px;
+    width: 900px;
+    border: 1px solid black;
 }
 #toc{
     position: relative;
     top: 10px;
-    left:60px;
+    right: 120px;
     border: 1px solid white ;
     width: 130px;
     }   
