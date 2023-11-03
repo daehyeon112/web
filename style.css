@@ -87,4 +87,27 @@ a{
     right: 120px;
     border: 1px solid white ;
     width: 130px;
-    }   
+    } 
+#oiftion{
+    margin-top: 10px;
+    width: 900px;
+    background-color:black ;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}  
+#oiftion2{
+font-size: 20px;
+margin-bottom: 10px;
+}
+#oioption{
+    background-color: #1f2023 ;
+    height: 30px;
+    border-top: 1px solid gray ;
+    padding-top: 5px;
+}
+#oiftionhead{
+    font-size: 30px;
+
+
+}
