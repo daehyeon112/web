@@ -30,7 +30,7 @@ body{
     height: 35px;
     display: inline;
     padding: 0px;
-    border-bottom: 1px solid #373a3c;
+    border  : 0px solid #373a3c;
     background-color: #1f2023;
 }
 #mainhead{
@@ -81,13 +81,6 @@ a{
     width: 900px;
     border: 1px solid black;
 }
-#toc{
-    position: relative;
-    top: 10px;
-    right: 120px;
-    border: 1px solid white ;
-    width: 130px;
-    } 
 #oiftion{
     margin-top: 10px;
     width: 900px;
@@ -101,15 +94,47 @@ font-size: 20px;
 margin-bottom: 10px;
 }
 #oioption{
-    background-color: #1f2023 ;
+    background-color: #191919 ;
     height: 30px;
     border-top: 1px solid gray ;
     padding-top: 5px;
 }
 #oiftionhead{
     font-size: 30px;
-
-
+}
+#toc{
+    position: relative;
+    top: 10px;
+    right: 120px;
+    border: 1px solid white ;
+    width: 130px;
+    padding: 20px;
+} 
+#toc1{
+    margin: 0px;
+}
+#tochead{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#table1{
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 1000px;
+    display:inline-block;
+    width: 300px;
+    height: 600px;
+    font-size: 20px;
+}
+#table1tr{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+#td1{ border-right: 1px solid black;
 }
 footer{
     display: block;
@@ -118,6 +143,7 @@ footer{
     background-color: #2d2f34;
     color: white;
     text-align: center;
+    border-top: 1px solid gray;
 }
 .footerbar{
     margin: 20px;
